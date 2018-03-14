@@ -14,6 +14,8 @@
 		4D3B4F232055A959003859DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3B4F212055A959003859DA /* LaunchScreen.storyboard */; };
 		4D3B4F2E2055A959003859DA /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B4F2D2055A959003859DA /* ConcentrationTests.swift */; };
 		4D3B4F392055A959003859DA /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B4F382055A959003859DA /* ConcentrationUITests.swift */; };
+		4DB8EBD32058548800FBCBFE /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB8EBD22058548800FBCBFE /* Concentration.swift */; };
+		4DB8EBD52058556E00FBCBFE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB8EBD42058556E00FBCBFE /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4D3B4F342055A959003859DA /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3B4F382055A959003859DA /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		4D3B4F3A2055A959003859DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB8EBD22058548800FBCBFE /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		4DB8EBD42058556E00FBCBFE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		4D3B4F172055A959003859DA /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				4DB8EBD22058548800FBCBFE /* Concentration.swift */,
+				4DB8EBD42058556E00FBCBFE /* Card.swift */,
 				4D3B4F1A2055A959003859DA /* ViewController.swift */,
 				4D3B4F1C2055A959003859DA /* Main.storyboard */,
 				4D3B4F462055B0AF003859DA /* Supporting files */,
@@ -269,6 +275,8 @@
 			files = (
 				4D3B4F1B2055A959003859DA /* ViewController.swift in Sources */,
 				4D3B4F192055A959003859DA /* AppDelegate.swift in Sources */,
+				4DB8EBD32058548800FBCBFE /* Concentration.swift in Sources */,
+				4DB8EBD52058556E00FBCBFE /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
